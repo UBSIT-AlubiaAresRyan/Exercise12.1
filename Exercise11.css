@@ -1,0 +1,214 @@
+* {
+    box-sizing:border-box;
+    background-color: white ;
+  }
+
+.left {
+    background-color:#2196F3;
+    float:left;
+    width: 48%;
+    height: 200px;
+    margin-top: 10px;
+    margin: 10px;
+  
+}
+.size{
+    height: 320px;
+    width: 100%;
+}
+
+
+.right {
+    background-color:#4CAF50;
+    float:left;
+    width: 48%; 
+    height: 200px;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.ha{
+    height: 250px;
+    width: 100%;
+}
+
+.mid{
+float:left;
+  width:100%;
+  height: 1200px;
+  margin-top: 10px;
+  margin: 1%;
+  background: url(midj.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.first {
+    background-color:red;
+    float:left;
+    width:31%; 
+    height: 200px;
+    margin-top: 10px;
+    margin: 1%;;
+}
+
+.g1{
+    height: 200px;
+    width: 100%;
+}
+
+.second {
+    background-color:black;
+    float:left;
+    width: 31%; 
+    height: 200px;
+    margin-top: 10px;
+    margin: 1%;
+}
+.g2{
+    height: 200px;
+    width: 100%;
+}
+
+.third {
+    background-color:blue;
+    float:left;
+    width: 32%; 
+    height: 200px;
+    margin-top: 10px;
+    margin: 1%;
+}
+.g3{
+    height: 200px;
+    width: 100%;
+}
+
+.uno {
+    background-color:wheat;
+    float:left;
+    width: 23%; 
+    height: 200px;
+    margin: 1%;
+}
+.g4{
+    height: 200px;
+    width: 100%;
+}
+
+.dos{
+    background-color:white;
+    float:left;
+    width: 23%; 
+    height: 200px;
+    margin-top: 10px;
+    margin: 1%;
+}
+.g5{
+    height: 200px;
+    width: 100%;
+}   
+.tres{
+    background-color:skyblue;
+    float:left;
+    width: 23%; 
+    height: 200px;
+    margin-top: 10px;
+    margin: 1%;
+}
+.g6{
+    height: 200px;
+    width: 100%;
+} 
+
+.quatro{
+    background-color:yellowgreen;
+    float:left;
+    width: 23%; 
+    height: 200px;
+    margin-top: 10px;
+    margin: 1%;
+}
+.g7{
+    height: 200px;
+    width: 100%;
+} 
+
+
+
+@media only screen and (max-width:1024px) {
+    /* For desktop: */
+    .left{
+      width:100%;
+    }
+    .right {
+      width: 100%;
+    }
+    .mid {
+      width: 100%;
+    }
+    .first {
+      width: 100%;
+    }
+    .second {
+      width: 100%;
+    }
+    .third {
+      width: 100%;
+    }
+    .uno {
+      width: 49%;
+    }
+    .dos {
+      width: 49%;
+    }
+    .tres {
+      width: 49%;
+    }
+    .quatro{
+      width: 49%;
+    }
+  }
+  
+  @media only screen and (max-width:768px) {
+    /* For tablets: */
+    .left{
+        width:100%;
+      }
+      .right {
+        width: 100%;
+      }
+      .mid {
+        width: 100%;
+      }
+      .first {
+        width: 100%;
+      }
+      .second {
+        width: 100%;
+      }
+      .third {
+        width: 100%;
+      }
+      .uno {
+        width: 49%;
+      }
+      .dos {
+        width: 49%;
+      }
+      .tres {
+        width: 49%;
+      }
+      .quatro{
+        width: 49%;
+      }
+    }
+  
+  @media only screen and (max-width:320px) {
+    /* For mobile phones: */
+    .left, .right, .mid, .first, .second, .third, .uno, .dos, .tres, .quatro  {
+      width: 100%;
+    }
+   }
+  }
+  
